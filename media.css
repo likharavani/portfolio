@@ -1,0 +1,81 @@
+@media only screen and (max-width:950px)
+
+{
+    html{
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width:1200px)
+
+{
+    html{
+        font-size: 40%;
+    }
+}
+@media only screen and (max-width:850px)
+
+{
+    html{
+        font-size: 40%;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:800px)
+
+{
+    html{
+        font-size: 40%;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding:1rem ;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    html{
+        font-size:50%;
+    }
+    .list {
+        display: none;
+    }
+    .navbar{
+        padding:1rem 4rem;
+        justify-content: flex-start;
+        width:100%;
+    }
+     .text{
+        margin-left:5rem;
+    }
+    .about-row, .skill-row ,.touch-row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-row{
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .about-col-1, 
+    .about-col-2,
+    .skill-col-1,
+    .skill-col-2,
+    .touch-col-1,
+    .touch-col-2
+    {
+        flex-basis: 100%;
+        text-align: center;
+        width:100%;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    html{
+        font-size: 40%;
+    }
+}
+@media only screen and (max-width:400px)
+{
+    html{
+        font-size: 30%;
+    }
+}
