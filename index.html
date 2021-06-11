@@ -8,15 +8,17 @@
     <title>Portfolio | Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">
+            <div class="logo" >
                 <h1>PORTFO<span>LIO</span></h1>
             </div>
-            <div class="list">
+            <div class="list" >
                 <ul>
                     <li><a href="#">home</a></li>
                     <li><a href="#">about</a></li>
@@ -39,10 +41,10 @@
         <h1>About me</h1>
         <p>Who I am?</p>
         <div class="about-row">
-            <div class="about-col-1">
+            <div class="about-col-1" data-aos="slide-right">
                 <img src="about.jpg">
             </div>
-            <div class="about-col-2">
+            <div class="about-col-2"data-aos="slide-left">
                 <h2>
                     Hello, I'm Avanika & I'm a Developer
                 </h2>
@@ -113,17 +115,17 @@
         <h1>Services</h1>
         <p>What We Provide?</p>
         <div class="service-row">
-            <div class="service-col">
+            <div class="service-col" data-aos="flip-left">
                 <img src="b2.png">
                 <h2>Web Developmenet</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quam non aut magnam nat laudantium doloribus in,.</p>
             </div>
-            <div class="service-col">
+            <div class="service-col"  data-aos="flip-left">
                 <img src="b2.png">
                 <h2>Web Developmenet</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quam non aut magnam  at laudantium doloribus in,.</p>
             </div>
-            <div class="service-col">
+            <div class="service-col"  data-aos="flip-left">
                 <img src="b2.png">
                 <h2>Web Developmenet</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quam non aut magnam nat laudantium doloribus in,.</p>
@@ -135,10 +137,10 @@
         <h1>Get in Touch</h1>
         <p>Why are available</p>
         <div class="touch-row">
-            <div class="touch-col-1">
+            <div class="touch-col-1" data-aos="slide-right">
                  <img src="b3.png">
             </div>
-            <div class="touch-col-2">
+            <div class="touch-col-2" data-aos="slide-left">
               <form action="">
                 <h2>Connect with us</h2>
                   <input type="text" name="name" placeholder="Name">
@@ -156,7 +158,12 @@
         copywrite | 2021 Portfolio-- also can connect on social media!
     </p> 
  </footer>
-   
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+       duration:1000,
+   });
+ </script>
 </body>
 
 </html>

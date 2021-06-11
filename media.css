@@ -36,6 +36,10 @@
         justify-content: space-between;
         padding:1rem ;
     }
+    .text{
+        margin-left:5rem;
+        margin-top: 20rem;
+    }
 }
 @media only screen and (max-width:700px)
 {
@@ -52,6 +56,7 @@
     }
      .text{
         margin-left:5rem;
+        margin-top:20rem;
     }
     .about-row, .skill-row ,.touch-row{
         flex-direction: column;
@@ -78,6 +83,14 @@
 {
     html{
         font-size: 40%;
+    }
+    .text{
+        margin-left:5rem;
+        margin-top:15rem;
+    }
+    header{
+        height:70vh;
+        background-size: 40% 70% ,cover;
     }
 }
 @media only screen and (max-width:400px)
