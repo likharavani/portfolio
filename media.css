@@ -25,6 +25,10 @@
     html{
         font-size: 40%;
     }
+    header{
+        height:70vh;
+        background-size: 40% 70% ,cover;
+    }
 }
 @media only screen and (min-width:700px) and (max-width:800px)
 
