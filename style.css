@@ -92,7 +92,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:4rem 1rem;
+    margin:4rem 0rem;
 }
 #about h1{
     font-size: 4rem;
@@ -223,7 +223,7 @@ width:30rem;
 .touch-row{
  
     width:80%;
-     padding:2rem;
+    
     display: flex;
     z-index: 100;
     position:relative;
@@ -265,6 +265,7 @@ footer{
     width:100%;
     background-color: var(--primary);
     text-align: center;
+    margin-top: -4rem;
 }
 footer p{
     font-size: 2rem;
