@@ -12,6 +12,11 @@
     html{
         font-size: 50%;
     }
+    header{  
+        background-size:30% 70%, cover;
+        height:70vh;
+    }
+    
 }
 @media only screen and (max-width:1200px)
 
@@ -29,6 +34,7 @@
     }
     header{  
         background-size: cover;
+        background-attachment: fixed;
         background: url('bg1.jpeg');
     }
     .text{
