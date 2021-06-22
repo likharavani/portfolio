@@ -58,9 +58,13 @@ header{
 }
 .text{
     color:white;
-    margin-left: 16rem;
-    margin-top: 20rem;
-    max-height: 30rem;
+    position: absolute;
+    width:35rem;
+    top:50%;
+    left:20%;
+    transform: translate(-50%,-50%);
+ 
+  
 }
 .text h1{
   font-size: 4.5rem;

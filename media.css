@@ -37,9 +37,11 @@
         background-attachment: fixed;
         background: url('bg1.jpeg');
     }
+  
+
     .text{
+        left:50%;
         text-align: center;
-        margin-left: 0;
     }
 }
 @media only screen and (min-width:700px) and (max-width:800px)
@@ -54,7 +56,7 @@
     }
   
 }
-@media only screen and (max-width:700px)
+@media only screen and (max-width:768px)
 {
     html{
         font-size:50%;
@@ -88,6 +90,7 @@
         text-align: center;
         width:100%;
     }
+   
 }
 @media only screen and (max-width:500px)
 {
